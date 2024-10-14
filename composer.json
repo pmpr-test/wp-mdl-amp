@@ -1,32 +1,9 @@
 {
-  "name": "pmpr-mdl/wp-mdl-amp",
-  "type": "project",
-  "license": "proprietary",
-  "description": "AMP Module for Wordpress",
-  "keywords": [
-    "wordpress",
-    "package",
-    "module",
-    "amp"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Module\\AMP\\": "src/Pmpr/Module/AMP"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
   "tag": "1.1.32",
-  "timestamp": "1728905248"
+  "timestamp": "1728923318"
 }
